@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.banner {
+    color: $tertiary-color;
+    text-align: center;
+    margin-top: .45rem;
+
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .banner__title {
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .banner__text {
+        font-weight: 400;
+        font-size: 1.12rem;
+        margin-bottom: 4rem;
+    }
+}
